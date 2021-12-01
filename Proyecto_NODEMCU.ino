@@ -35,7 +35,7 @@ void loop(){
  
     temp = dht.readTemperature();
     Serial.println("Temperatura: " + String(temp));
-    if(temp > 25){
+    if(temp > 4){
       digitalWrite(D0, HIGH);
     }  
 
